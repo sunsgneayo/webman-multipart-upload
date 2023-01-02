@@ -1,0 +1,21 @@
+{
+    "name": "sunsgne/webman-multipart-upload",
+    "description": "multipart upload",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sunsgne\\WebmanMultipartUpload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sunsgne",
+            "email": "1129371285@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1"
+    }
+}
