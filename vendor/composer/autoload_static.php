@@ -6,22 +6,106 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit4ef437262c6adb61e4b91e5cfb868bc4
 {
+    public static $files = array (
+        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'support\\' => 8,
+        ),
+        'W' => 
+        array (
+            'Workerman\\' => 10,
+            'Webman\\' => 7,
+        ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Php80\\' => 23,
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\VarDumper\\' => 28,
+            'Support\\View\\' => 13,
+            'Support\\Exception\\' => 18,
+            'Support\\Bootstrap\\' => 18,
+            'Support\\' => 8,
             'Sunsgne\\WebmanMultipartUpload\\' => 30,
+        ),
+        'P' => 
+        array (
+            'Psr\\Container\\' => 14,
+        ),
+        'F' => 
+        array (
+            'FastRoute\\' => 10,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'support\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/webman-framework/src/support',
+        ),
+        'Workerman\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/workerman',
+        ),
+        'Webman\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/webman-framework/src',
+        ),
+        'Symfony\\Polyfill\\Php80\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Component\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
+        'Support\\View\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/webman-framework/src/support/view',
+        ),
+        'Support\\Exception\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/webman-framework/src/support/exception',
+        ),
+        'Support\\Bootstrap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/webman-framework/src/support/bootstrap',
+        ),
+        'Support\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/webman-framework/src/support',
+        ),
         'Sunsgne\\WebmanMultipartUpload\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'FastRoute\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
     );
 
     public static $classMap = array (
+        'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
+        'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
+        'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

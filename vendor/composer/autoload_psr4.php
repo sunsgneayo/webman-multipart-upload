@@ -6,5 +6,17 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'support\\' => array($vendorDir . '/workerman/webman-framework/src/support'),
+    'Workerman\\' => array($vendorDir . '/workerman/workerman'),
+    'Webman\\' => array($vendorDir . '/workerman/webman-framework/src'),
+    'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
+    'Support\\View\\' => array($vendorDir . '/workerman/webman-framework/src/support/view'),
+    'Support\\Exception\\' => array($vendorDir . '/workerman/webman-framework/src/support/exception'),
+    'Support\\Bootstrap\\' => array($vendorDir . '/workerman/webman-framework/src/support/bootstrap'),
+    'Support\\' => array($vendorDir . '/workerman/webman-framework/src/support'),
     'Sunsgne\\WebmanMultipartUpload\\' => array($baseDir . '/src'),
+    'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
 );
