@@ -5,19 +5,6 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="Sunsgne\WebmanMultipartUpload\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/workerman/workerman" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/workerman/webman-framework" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/fast-route" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/nikic" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/psr" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/workerman" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
