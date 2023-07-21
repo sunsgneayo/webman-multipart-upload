@@ -24,7 +24,8 @@ class MultipartUpload
         // 保存根路径
         'rootPath'  => '/var/www/runtime/apk',
         /** 临时文件存储路径，基于rootPath  */
-        'tmpPath'   => 'tmp'
+        'tmpPath'   => 'tmp',
+
     ];
 
     /**
@@ -42,7 +43,9 @@ class MultipartUpload
     public function __construct(array $config = [])
     {
         if (empty($config)) {
-            $config = config('plugin.sunsgne.webman-multipart-upload.app') ?? [];
+            if ($def = config('plugin.sunsgne.multipart-upload.app.default')){
+                $config = config('plugin.sunsgne.multipart-upload.app.config.'.$def) ?? [];
+            }
         }
         $this->config = array_merge($this->config, $config);
     }

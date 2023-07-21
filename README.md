@@ -15,3 +15,21 @@
 [![PHP Version Require](http://poser.pugx.org/sunsgne/webman-multipart-upload/require/php)](https://packagist.org/packages/sunsgne/webman-multipart-upload)
 
 </div>
+
+### 说明
+
+### 引用
+```shell
+composer require sunsgne/webman-multipart-upload
+```
+
+### 后端示例
+```php
+
+```
+
+### 前端示例
+```js
+
+```
+
