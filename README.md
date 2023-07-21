@@ -40,6 +40,7 @@ composer require sunsgne/webman-multipart-upload
 ```
 
 ### 在webman中使用
+伪代码 仅供参考：
 ```php
     public function MultipartUpload(Request $request): Response
     {
@@ -77,9 +78,7 @@ composer require sunsgne/webman-multipart-upload
 ```
 
 ### 前端示例
-```js
-
-```
+详见： `./example/upload.html`
 
 
 ### 注意事项
