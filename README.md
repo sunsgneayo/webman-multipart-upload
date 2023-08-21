@@ -2,9 +2,9 @@
 <p align="center">
   <img width="260px" src="https://cdn.nine1120.cn/logo-i.png" alt="sunsgne">
 </p>
-**<p align="center">sunsgne/webman-multipart-upload</p>**
+<p align="center">sunsgne/webman-multipart-upload</p>
 
-**<p align="center">🐬 Webman's File multipart upload  🐬</p>**
+<p align="center">🐬 Webman's File multipart upload  🐬</p>
 
 <div align="center">
 
